@@ -1,0 +1,42 @@
+// perulangan for loop -----------------------------------------------
+for (let index = 1; index <= 10; index++){
+    console.log("perulangan ke-" + index)
+}
+
+//perulangan for/in loop ---------------------------------------------
+let siswa = {
+    nama : "kusuma",
+    gender : "wanita",
+    jurusan : "RPL",
+    usia : "17",
+    alamat : "malang"
+}
+for (key in siswa){
+    console.log(key);
+}
+
+//perulangan for/of loop ---------------------------------------------
+let presiden = [
+    "jokowi","sby","soekarno","gusdur","megawati","soeharto","habibie"
+]
+for(pres of presiden){
+    console.log(pres);
+}
+
+//perulangan while loop
+let laptop = ["lenovo", "hp", "asus"]
+let i = 0
+while (laptop[i]){
+    console.log(laptop[i])
+    i++
+}
+
+//perulangan do while loop
+let gadget = ["xiaomi","samsung","iphone"]
+let i = 0
+do {
+    console.log(gadget[i]);
+    i++
+}while(gadget[i])
+
+
