@@ -1,0 +1,20 @@
+// operator 1 -----------------------------------------------------------------------------------
+let a = 2, b = 5, c = "10"
+console.log("a + b = " + (a + b))//tambah
+console.log("a + b = " + (a + c))//penggabungan(concat)
+console.log("a - b = " + (a - b))//kurang
+console.log("a * b = " + (a * b))//kali
+console.log("a / b = " + (b / a))//bagi
+console.log("a % b = " + (b % a))//hasil bagi
+console.log("a ** b = " + (a ** b))//perpangkatan
+
+// operator 2 -----------------------------------------------------------------------------------
+let a = 5, b = 10, c = "5"
+console.log("a == c -> " + (a == c))//membandingkan kesamaan nilai antar operand
+console.log("a === c -> " + (a === c))//membandingkan kesamaan nilai dan tipe antar operand
+console.log("a != c -> " + (a != c))//membandingkan ketidak samaan nilai antar operand
+console.log("a !== c -> " + (a !== c))//membandingkan ketidaksamaan nilai dan tipe antar operand
+console.log("a > b -> " + (a > b))//membandingkan nilai yang lebih besar
+console.log("a >= c -> " + (a >= b))//membandingkan nilai yang lebih besar sama dengan
+console.log("a < c -> " + (a < b))//membandingkan nilai yang lebih kecil
+console.log("a <= c -> " + (a <= b))//membandingkan nilai yang lebih kecil sama dengan
