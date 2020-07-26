@@ -1,0 +1,78 @@
+// array 1 -----------------------------------------------------------------------------------------------------------------
+//array string
+let jurusan = ["Rekayasa Perangkat Lunak","Teknik Komputer dan Jaringan"]
+//array numeric
+let tingkatan_kelas = [10,11,12]
+//array objek
+let siswa = [
+    //objek 1
+    { nama : "lisa", jurusan : "RPL"},
+    //objek 2
+    { nama : "jennie", jurusan : "TKJ"},
+    //objek 3
+    { nama : "jirose", jurusan : "RPL"}
+]
+
+console.log("Jumlah Elemen Array Jurusan = " + jurusan.length)
+console.log("Jumlah Elemen Array Tigkatan Kelas = " + tingkatan_kelas.length)
+console.log("Jumlah Elemen Array Jurusan = " + siswa.length)
+
+// array 2 -----------------------------------------------------------------------------------------------------------------
+let kota = ["Malang","Surabaya","Tulungagung"]
+
+console.log("isi array kota");
+console.log(kota);
+console.log("Jumlah data = " +kota.length);
+
+console.log("-----------------------------------");
+//tambah kota baru
+kota.push("Banyuwangi")
+
+console.log("isi array kota saat ini");
+console.log(kota);
+console.log("Jumlah data saat ini = " + kota.length);
+
+// array 2b -----------------------------------------------------------------------------------------------------------------
+let barang = [
+    { nama : "Rinso", harga : 5000 },
+    { nama : "Moonlight", harga : 4000}
+]
+
+console.log("isi array barang");
+console.log(barang);
+console.log("Jumlah data = " + barang.length);
+
+console.log("----------------------------------");
+
+//tambah data barang baru
+barang.push (
+    { nama : "molto", harga : 1000}
+)
+console.log("isi array barang saat ini");
+console.log(barang);
+console.log("jumlah data saat ini = " + barang.length);
+
+// array 3 -----------------------------------------------------------------------------------------------------------------
+nama = ["nisa","lisa","misa"]
+console.log(nama);
+console.log("jumlah data saat ini = " + nama.length);
+
+nama.splice(2,1)
+//angka 2 adalah start index yang dihapus
+//angka 1 adalah jumlah data yang dihapus
+
+console.log(nama);
+console.log("jumlah data saat ini = " + nama.length);
+    
+// array 4 -----------------------------------------------------------------------------------------------------------------
+let siswa = [
+    {nama_depan : "Jack", nama_belakang : "Ma"},
+    {nama_depan : "Johny", nama_belakang : "Engli"},
+    {nama_depan : "John", nama_belakang : "Cena"}
+]
+//menampilkan nama lengkap dari array
+siswa.map(
+    (sis, index) => {
+        console.log(sis.nama_depan +" "+ sis.nama_belakang);
+    }
+)
