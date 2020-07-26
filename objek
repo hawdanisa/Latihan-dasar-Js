@@ -1,0 +1,14 @@
+let siswa1={
+    nis : "101",
+    nama :"suneo",
+    jurusan : "RPL"
+}
+let siswa2={
+    nis : "102",
+    nama : "jeko",
+    jurusan : "TKJ"
+}
+console.log("Nama Siswa 1 = " + siswa1.nama);
+siswa1.nama = "nobita"
+console.log("Nama Siswa 1 = " + siswa1.nama);
+console.log("Nama Siswa 2 = " + siswa2.nama);
