@@ -1,0 +1,8 @@
+let barang = [
+    {nama : "beras", harga : 10000, jumlah : 5},
+    {nama : "gula", harga : 14000, jumlah : 5},
+    {nama : "telur", harga : 12000, jumlah : 2},
+    {nama : "minyak", harga : 13000, jumlah : 10}
+
+]
+console.log(JSON.stringify(barang));
