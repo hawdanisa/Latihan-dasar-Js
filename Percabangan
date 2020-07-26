@@ -1,0 +1,21 @@
+// percabangan if else ----------------------------------------------------
+let tahun = 2020
+if (tahun % 4 == 0){
+    console.log(tahun + "adalah tahun kabisat");
+}
+else{
+    console.log(tahun + "bukan tahun kabisat");
+}
+
+// percabangan if else if-------------------------------------------------
+let nilai = 80
+if (nilai > 80) {
+    console.log("exelent!");
+}else if(nilai <= 80 && nilai > 70) {
+    console.log("Good");
+}else if(nilai <= 70 && nilai > 60) { 
+    console.log("not bad");
+}else {
+    console.log("so bad")
+}
+
